@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script");
+body {
+  background-color: #d7302d;
+  background-image: radial-gradient(#ffffff, rgba(255, 255, 255, 0.2) 2px, rgba(0, 0, 0, 0) 40px), radial-gradient(#ffffff, rgba(255, 255, 255, 0.15) 1px, rgba(0, 0, 0, 0) 30px), radial-gradient(#ffffff, rgba(255, 255, 255, 0.1) 2px, rgba(0, 0, 0, 0) 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, rgba(0, 0, 0, 0) 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.name {
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #3bb6cf;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #3bb6cf;
+  border-radius: 30% 30% 50% 50%;
+  border: solid 4px #3e7491;
+  z-index: 2;
+}
+
+.ear-left {
+  position: absolute;
+  background: #3bb6cf;
+  width: 80%;
+  height: 100%;
+  top: -1%;
+  left: -30%;
+  border-radius: 20% 100% 20% 60%;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+.ear-right {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  right: -30%;
+  top: -1%;
+  background: #3bb6cf;
+  border-radius: 100% 20% 60% 20%;
+  transform: rotate(7deg);
+  z-index: 1;
+}
+
+.inner-ear-left {
+  position: absolute;
+  width: 70%;
+  height: 90%;
+  top: 5%;
+  left: 15%;
+  border-radius: 20% 100% 20% 60%;
+  transform: rotate(-7deg);
+  z-index: 1;
+  border: solid 4px #3e7491;
+  border-color: #3e7491 transparent transparent transparent;
+}
+
+.inner-ear-right {
+  position: absolute;
+  width: 70%;
+  height: 90%;
+  top: 5%;
+  right: 15%;
+  border-radius: 100% 20% 60% 20%;
+  transform: rotate(7deg);
+  z-index: 1;
+  border: solid 4px #3e7491;
+  border-color: #3e7491 transparent transparent transparent;
+}
+
+.left-eye {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: transparent #3e7491 transparent #3e7491;
+  width: 20%;
+  height: 7%;
+  top: 40%;
+  left: 10%;
+  border-radius: 160%/0 0 100px 100px;
+  z-index: 3;
+}
+
+.right-eye {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: transparent #3e7491 transparent #3e7491;
+  width: 20%;
+  height: 7%;
+  top: 40%;
+  left: 69.5%;
+  border-radius: 160%/0 0 100px 100px;
+  z-index: 3;
+}
+
+.left-eye-circle {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: #3e7491 #3e7491 transparent;
+  width: 30%;
+  height: 22%;
+  left: 5%;
+  top: 22%;
+  border-radius: 50%/50px 50px 0px 0;
+  z-index: 4;
+}
+
+.right-eye-circle {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: #3e7491 #3e7491 transparent #3e7491;
+  width: 30%;
+  height: 22%;
+  left: 64.2%;
+  top: 22%;
+  border-radius: 50%/50px 50px 0px 0;
+  z-index: 4;
+}
+
+.snout {
+  position: absolute;
+  background: #3bb6cf;
+  border: solid 5px #3e7491;
+  border-color: transparent #3e7491 #3e7491;
+  width: 26%;
+  height: 77%;
+  left: 36.8%;
+  top: 44%;
+  z-index: 3;
+}
+
+.snout-uno {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: #3e7491;
+  width: 26%;
+  height: 12%;
+  left: 36.8%;
+  top: 55%;
+  z-index: 4;
+}
+
+.snout-dos {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: #3e7491;
+  width: 26%;
+  height: 12%;
+  left: 36.8%;
+  top: 81%;
+  z-index: 4;
+}
+
+.snout-tres {
+  position: absolute;
+  border: solid 5px #3e7491;
+  border-color: #3e7491;
+  width: 26%;
+  height: 12%;
+  left: 36.8%;
+  top: 109%;
+  z-index: 4;
+}
+
+.left-tooth {
+  -webkit-clip-path: polygon(49% 100%, 10% 0, 90% 0);
+  clip-path: polygon(49% 100%, 10% 0, 90% 0);
+  background: #fff;
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  left: 26%;
+  top: 97.5%;
+  z-index: 2;
+  transform: rotate(18deg);
+}
+
+.right-tooth {
+  -webkit-clip-path: polygon(49% 100%, 10% 0, 90% 0);
+  clip-path: polygon(49% 100%, 10% 0, 90% 0);
+  background: #fff;
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  left: 65.5%;
+  top: 97.5%;
+  z-index: 2;
+  transform: rotate(-18deg);
+}
+
+.left-wrinkle {
+  position: absolute;
+  width: 12%;
+  height: 8%;
+  border: solid 5px #3e7491;
+  border-color: #3e7491 transparent transparent #3e7491;
+  left: 18%;
+  top: 82%;
+  z-index: 2;
+  transform: rotate(110deg);
+  border-radius: 50% 0%;
+}
+
+.right-wrinkle {
+  position: absolute;
+  width: 12%;
+  height: 8%;
+  border: solid 5px #3e7491;
+  border-color: transparent transparent #3e7491 #3e7491;
+  left: 70%;
+  top: 82%;
+  z-index: 2;
+  transform: rotate(70deg);
+  border-radius: 0% 50%;
+}
+
+.left-eyelash1 {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  background: #F4D35E;
+  left: 12%;
+  top: 50%;
+  z-index: 2;
+  transform: rotate(110deg);
+}
+
+.left-eyelash2 {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  background: #F4D35E;
+  left: 16%;
+  top: 51%;
+  z-index: 2;
+  transform: rotate(100deg);
+}
+
+.left-eyelash3 {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  background: #F4D35E;
+  left: 20%;
+  top: 51%;
+  z-index: 2;
+  transform: rotate(90deg);
+}
+
+.right-eyelash1 {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  background: #F4D35E;
+  right: 10%;
+  top: 50%;
+  z-index: 2;
+  transform: rotate(75deg);
+}
+
+.right-eyelash2 {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  background: #F4D35E;
+  right: 14%;
+  top: 51%;
+  z-index: 2;
+  transform: rotate(85deg);
+}
+
+.right-eyelash3 {
+  position: absolute;
+  width: 5%;
+  height: 2%;
+  background: #F4D35E;
+  right: 18%;
+  top: 51%;
+  z-index: 2;
+  transform: rotate(100deg);
+}
